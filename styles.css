@@ -1,0 +1,132 @@
+body {
+	margin: 0;
+    padding: 0;
+	min-height: 100vh;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+header,
+footer {
+	display: flex;
+	margin: 0;
+    padding: 0 20vw 0 20vw;
+	background-color: #1f2837;
+	color: #e5e7eb;
+	font-size: 18px;
+}
+header {
+	justify-content: space-between;
+	align-items: center;
+	color: #e5ebe7;
+}
+footer {
+	justify-content: center;
+}
+.info{
+    width: 400px;
+}
+.info > h1 {
+	margin: 0;
+	font-size: 48px;
+	font-weight: bolder;
+	color: #f9faf8;
+}
+.info > p {
+	margin: 0;
+	color: #e5e7eb;
+	font-size: 18px;
+}
+a {
+	text-decoration: none;
+	color: #e5ebe7;
+	font-size: 18px;
+}
+.links {
+	list-style: none;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	gap: 16px;
+}
+.uno {
+	display: flex;
+	margin: 0;
+	padding: 50px 20vw 50px 20vw;
+	background-color: #1f2837;
+	justify-content: space-between;
+	align-items: center;
+	flex:1;
+}
+button {
+	background-color: #3882f6;
+	color: #e5ebe7;
+	border: none;
+	border-radius: 5px;
+}
+
+.imagen>img{
+	width: 400px;
+	height: 250px;
+}
+.dos {
+    padding: 50px 20vw 50px 20vw;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.random-info {
+	align-self: center;
+}
+.cards {
+	display: flex;
+	justify-content: space-between;
+}
+.card {
+	margin-top: 8px;
+}
+.card > img {
+	width: 128px;
+	height: 128px;
+	border: #3832f6;
+	border-style: solid;
+	border-width: 2px;
+	border-radius: 5px;
+}
+
+.tres {
+    padding: 50px 20vw 50px 20vw;
+    background-color: #e5e7eb;
+}
+.ref{
+	text-align: end;
+	justify-self: end;
+}
+.cuatro {
+    padding: 50px 20vw 50px 20vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.banner{
+    padding: 32px 64px 32px 64px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    background-color: #3882f6;
+    border-radius: 5px;
+    /* width: 400px; */
+}
+.banner-text>p,h2{
+    margin: 0;
+    padding-right: 16px;
+    color: #e5e7eb;
+}
+.banner>button{
+    border-style: solid;
+    border-color: #e5ebe7;
+    border-width: 1px;
+    border-radius: 5px;
+}
